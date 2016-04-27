@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+    BOX-SIZING:border-box;
+	text-decoration:none;	
+	}
+	
+header
+	{
+		position:fixed;
+		top:0px;
+		width:100%;
+		 background-color:#FFF;
+		display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+		}	
+
+.Contenedor
+        {
+              WIDTH:100%;
+              /*HEIGHT:500px;*/
+              Z-INDEX:1000; 
+              POSITION:absolute;
+              TOP:300px;
+			  text-align:center;
+			 
+              
+              /*BACKGROUND-COLOR:Cyan;*/
+             
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+} 
+
+                  
+    
+			
+			.Botones
+						{
+							border-radius:10px / 10px;
+							background:rgba(99, 100, 101, 1);
+							white-space:normal;
+							width: 80%;
+							/*height: 50px;*/
+							max-width:600px;
+							padding:10px;
+							color:rgb(255,255,255);
+							font-family:"Arial Black", Gadget, sans-serif;
+							text-decoration:none;
+							margin-left:auto;
+							margin-right:auto;
+							margin-top:20px;
+							underline:none;
+							
+							
+							}
+							
+			.BotonesTel
+						{
+							border-radius:10px / 10px;
+							background-color:#43d854;
+							
+							white-space:normal;
+							width: 80%;
+							/*height: 50px;*/
+							max-width:600px;
+							padding:10px;
+							color:rgb(255,255,255);
+							font-family:"Arial Black", Gadget, sans-serif;
+							font-size:medium;
+							text-decoration:none;
+							margin-left:auto;
+							margin-right:auto;
+							margin-top:20px;
+							underline:none;
+							
+							display: inline-flex;
+  							justify-content: center;
+  							align-items: center;
+  							align-content: center;
+							
+							
+							}
+							
+			.Btn_Vacio
+					{
+						width: 1000px;
+							height: 50px;
+						
+						}
+							
+			.Regresar
+					{
+						border-radius:10px / 10px;
+							background:rgba(194,4,48, 1);
+							white-space:normal;
+							width: 90%;
+							height: 50px;
+							max-width:600px;
+							padding:10px;
+							color:#FFF;
+							font-family:"Arial Black", Gadget, sans-serif;
+							text-decoration:none;
+							margin-top:200px;
+							position:relative;
+							top:100px;
+						
+						}
+			
+			.EscudoEdo
+						{
+							/*margin-left:50px;
+							margin-right:50px;*/
+							width:40%;
+							
+							}
+			.LogoSPSS_EDO
+						{
+							width:60%;
+							}
+			.BloqueImagenesEdo
+						{
+							display: inline-flex;
+  							justify-content: center;
+  							align-items: center;
+  							align-content: center;
+						}
+						
+						.BloqueImagenesEdo .imgSP
+									{
+										width:50%;
+																				
+										}
+										
+						.BloqueImagenesEdo .imgREPSS
+									{
+										width:30%;
+																				
+										}
+						
+						
+			.Menu
+						{
+							position:fixed;
+							bottom:0px;
+							left:0px;
+							background:rgba(99, 100, 101, .7);
+							white-space:normal;
+							width: 100%;
+							height:50px;
+							
+							padding:0px;
+							color:rgba(99,100,101,.5);
+							font-family:"Arial Black", Gadget, sans-serif;
+							text-decoration:none;
+							
+							margin-top:20px;
+							
+							display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+						
+							}
+							
+			.Btn_Menu
+					{
+						
+						transition-duration: 0.5s, 300ms;
+ 						border-color:#FFF;
+						border-width:10px;
+						
+						
+						width:40px;
+						height:100%;
+						z-index:10000;
+						text-align:center;
+						color:#FFF;
+						font-size:18px;
+						padding:0px;
+						font-weight:bold;
+						
+						text-align:center;
+						
+						display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+						
+						}
+						
+						.Btn_Menu:active
+								{
+									transition-duration: 0.5s, 300ms;
+									-webkit-transform: scale(2,1);
+-moz-transform:scale(2,1); 
+-ms-transform:scale(2,1;
+transform: scale(2,1);
+								
+							}
+						
+.ImgSPSS						
+		{
+			width:100%;
+			max-width:400px;
+			
+			}
+.sombra
+		{
+			background:rgba(99,100,101,.1);
+			}
